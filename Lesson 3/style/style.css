@@ -1,0 +1,150 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    background-color:#FFF;
+    padding: 10px;
+}
+.wrapper{
+    width: 940px;
+    margin: 0 auto;
+}
+.links{
+    text-align: right;
+    padding-right: 21px;
+}
+.logo{
+    width: 468px;
+    display: inline-block;
+}
+.space{
+    background-color: #FAC960;
+}
+.space.text{
+    font-family: Roboto;
+font-size: 44px;
+font-weight: 400;
+line-height: 54px;
+letter-spacing: 0em;
+text-align: center;
+color: #8A6D2F;
+}
+.space.input{
+    margin-left: 70px;
+}
+#email{
+    height: 54px;
+    width: 560px;
+    left: 0px;
+    top: 0.203125px;
+    border-radius: [object Object]px;    
+color: #FFF;
+}
+::placeholder{
+    padding-left: 36px;
+}
+#button1{
+    border: 0px;
+    width: 240px;
+    height: 54px;
+    color: #FFFFFF;
+    background-color: #A8863D;
+    font-size: 30px;
+}
+.unlimited.bg{
+    padding: 0px;
+    background-color: #F2F2F2;
+    margin: 0px;
+}
+.unlimited.text.first{
+    padding-top: 77px;
+    padding-bottom: 32px;
+    font-size: 37px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.56);
+}
+.unlimited.text.second{
+    font-size: 23px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.4);
+    padding-bottom: 56px;
+}
+p{
+    margin: 0px;
+}
+#infinity{
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 81px;
+}
+.tel.text.first{
+    font-family: Roboto;
+    font-size: 37px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #000;    
+}
+.tel.text.second{
+    font-family: Roboto;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;    
+    color: #000;
+}
+#tel.photo{
+    height: 354.5669250488281px;
+    width: 190px;
+    left: 375px;
+    top: 155.625px;
+    border-radius: 0px;    
+}
+.share.bg{
+    background: #FAC960;
+}
+.share.text.first{
+    height: 36px;
+    width: 275px;
+    left: 333px;
+    top: -4.375px;
+    border-radius: nullpx;    
+padding-top: 54px;
+padding-bottom: 31px;
+text-align: right;
+color: #8A6D2F;
+}
+.share.text.second{
+    height: 30px;
+    width: 506px;
+    left: 217px;
+    top: 62.625px;
+    border-radius: nullpx;    
+    padding-bottom: 33px;
+    text-align: right;   
+    color:#00000066;
+}
+#share.button{
+font-family: Roboto;
+font-size: 17px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: center;
+}
+.lastlogo{
+    height: 37px;
+width: 37px;
+left: 0px;
+top: 0px;
+border-radius: 0px;
+}
+.imglinks{
+    padding-right: 22px;
+    margin-bottom: 81.37px
+}    
