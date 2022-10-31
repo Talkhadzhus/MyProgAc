@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #E5E5E5;
+    padding-top: 100px;
+    margin: auto;
+}
+body>div{
+    width: 1386px;
+    height: 1412px;
+    text-align: center;
+}
+.Diia{
+    background-color: black;
+    width: 512px;
+    height: 512px;
+    position: relative;
+    margin: 150px;
+}
+.Diia.log{
+    height: 182px;
+    width: 310px;
+    padding-top: 145px;
+}
+.Flag.ua{
+    width: 80px;
+    height: 160px;
+    padding-left: 100px;
+}
+.square{
+    width: 512px;
+    height: 512px;
+    background-color: #FFCE22;
+    position: relative;
+}
+.glyph{
+    height:230px;
+    width: 400px;
+    padding-left: 57px;
+    position: absolute;
+}
+.blue.color{
+    width: 512px;
+    height: 270px;
+    position: absolute;
+}
+.circle{
+    background-color: #FFffff;
+    position: absolute;
+    left: 864px; 
+    top: 912px;
+    border-top: 1px solid #2137FC;
+    border-bottom: 1px solid #2137FC;
+    z-index: -1;
+}
+.Circle.border{
+    height: 444px;
+    width: 444px;
+    background-color: #FFCE22;
+    margin: 34px;
+    border-radius: 222px;
+}
+.glyph.circle{
+    position: absolute;
+    padding-top: 244px;
+    height: 203.74px;
+    width: 358.44px;
+    padding-left: 40px;
+}
