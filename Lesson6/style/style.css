@@ -1,0 +1,171 @@
+*{
+    box-sizing: border-box;
+}
+.body{
+    background-image: url(../img/bgimage.png), url(../img/Shap.png);
+    background-repeat: no-repeat;
+    background-position: top 150px, top 560px;
+}
+.Logo{
+    width: 25%;
+    height: 25px;
+    color: #BC436A;
+    font-weight: 700;
+    font-size: 18px;
+    padding-top: 48px;
+    padding-left: 120px;
+    font-family: "Open Sans";
+}
+.nav{
+    display:inline-flex;
+}
+.links,
+.home
+{
+    text-decoration: none;
+}
+.menu{
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+}
+.nav{
+    list-style: none;
+}
+.links{
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    color: #776677;
+    text-decoration: none;
+    margin: 40px;
+}
+.home{
+    color: #BC436A;
+    font-family: "Open Sans";
+    font-weight: 800;
+    font-size: 16px;
+    padding-right: 40px;
+}
+.Book-Guide{
+    background-color: #386E41;
+    border-radius: 4px;
+    height: 38px;
+    width: 102px;
+    padding-left: 40px;
+    border-color: #386E41;
+    color: #fff;
+    font-family: "Open Sans";
+
+}
+.Title{
+    width: 45%;
+    padding-left: 120px;
+    padding-top: 271px;
+    font-family: "Open Sans";
+    font-weight: 800;
+    font-size: 36px;
+    height: 98px;
+    color: #333333;
+}
+.Bst,
+.Vct{
+    color: #BC436A;
+}
+.Bst{
+    padding-right: 6px;
+}
+.Subtitle{
+    height: 75px;
+    width: 523px;
+    padding-left: 120px;
+    padding-top: 120px;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+    color: #7A7A7A;
+}
+.sentence{
+    height: 25px;
+    width: 188px;
+    padding-left: 120px;
+    padding-top: 229px; 
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 250px;
+    color: #767676;
+}
+.Chevron{
+    width: 24px;
+    height: 24px;
+    padding-left: 332px;
+    padding-top: 230px;
+    position: relative;
+}
+.footer{
+    width: 100%;
+    border-radius: 8px;
+    background-color: #386e41;
+    padding: 30px;
+    margin-top: 35px;
+}
+.country{
+    background-color: #386e41;
+    padding-left: 20px;
+    background-image: url(../img/chevron-down.png);
+    background-repeat: no-repeat;
+    background-position: right 10px top 0px;
+    border: none;
+    border-bottom: 2px solid #ffff;
+    margin-left: 38px;
+    margin-right: 38px;
+    width: 241px;
+    color: #fff;
+}
+.city{
+    background-color: #386e41;
+    padding-left: 20px;
+    background-image: url(../img/chevron-down.png);
+    background-repeat: no-repeat;
+    background-position: right 10px top 0px;
+    border: none;
+    border-bottom: 2px solid #ffff;
+    margin-left: 38px;
+    margin-right: 38px;
+    width: 241px;
+    color: #fff;
+}
+.place{
+    background-color: #386e41;
+    padding-left: 20px;
+    background-image: url(../img/chevron-down.png);
+    background-repeat: no-repeat;
+    background-position: right 10px top 0px;
+    border: none;
+    border-bottom: 2px solid #ffff;
+    margin-left: 38px;
+    margin-right: 38px;
+    width: 241px;
+    color: #fff;
+}
+.search{
+    background-color: #BC436A;
+    color: #fff;
+    font-family: "Open Sans";
+    border-radius: 4px;
+    width: 145px;
+}
+.Desti{
+    margin: 75px auto 20px;
+    text-align: center;
+}
+.see{
+    text-decoration: none;
+    font-family: 'Sen';
+    font-size: 18px;
+    font-weight: 400;
+    color: #767676;
+}
+
