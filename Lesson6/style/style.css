@@ -2,9 +2,11 @@
     box-sizing: border-box;
 }
 .body{
-    background-image: url(../img/bgimage.png), url(../img/Shap.png);
+    margin: 0;
+    background-image: url(../img/bgimage.png);
     background-repeat: no-repeat;
-    background-position: top 150px, top 560px;
+    background-position: right;
+    padding-top: 132px;
 }
 .Logo{
     width: 25%;
@@ -50,13 +52,13 @@
 .Book-Guide{
     background-color: #386E41;
     border-radius: 4px;
-    height: 38px;
-    width: 102px;
-    padding-left: 40px;
+    /* padding-top: 10px;
+    padding-left: 40px; */
+    padding: 8px 9px;
     border-color: #386E41;
     color: #fff;
     font-family: "Open Sans";
-
+    text-align: center;
 }
 .Title{
     width: 45%;
@@ -86,11 +88,9 @@
     text-align: left;
     color: #7A7A7A;
 }
-.sentence{
-    height: 25px;
-    width: 188px;
+.Where{
     padding-left: 120px;
-    padding-top: 229px; 
+    padding-top: 229px;
     font-family: "Open Sans";
     font-size: 18px;
     font-weight: 400;
@@ -98,18 +98,22 @@
     color: #767676;
 }
 .Chevron{
-    width: 24px;
+    /* width: 24px;
     height: 24px;
     padding-left: 332px;
     padding-top: 230px;
-    position: relative;
+    position: relative; */
+    padding-left: 361px;
+    position: absolute;
+    margin: -21px;
 }
 .footer{
-    width: 100%;
+    width: 78%;
     border-radius: 8px;
     background-color: #386e41;
     padding: 30px;
-    margin-top: 35px;
+    margin-top: 40px;
+    margin-left: 120px;
 }
 .country{
     background-color: #386e41;
@@ -156,10 +160,22 @@
     font-family: "Open Sans";
     border-radius: 4px;
     width: 145px;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 8px;
+    height: 41px;
+}
+.Last{
+    position: absolute;
+    height: 57px;
+    width: 136px;
+    left: 652px;
+    border-radius: 0px;
 }
 .Desti{
     margin: 75px auto 20px;
     text-align: center;
+    position: relative;
 }
 .see{
     text-decoration: none;
@@ -167,5 +183,9 @@
     font-size: 18px;
     font-weight: 400;
     color: #767676;
+}
+.double-ch{
+    padding-left: 57px;
+    /* padding-top: 8px; */
 }
 
